@@ -1911,7 +1911,7 @@ object Utilities {
     }
 
     fun getDevice(): String {
-        return SystemProperties.get("ro.aicp.device", Build.DEVICE)
+        return SystemProperties.get("ro.frosty.device", Build.DEVICE)
     }
 
     fun getModVersion(): String {

@@ -39,9 +39,9 @@ class About : BaseSettingsFragment() {
     private lateinit var mBuildDate: Preference
 
     companion object {
-        private const val PROPERTY_MAINTAINER = "ro.aicp.maintainer"
+        private const val PROPERTY_MAINTAINER = "ro.frosty.maintainer"
         private const val PREF_DEVICE_MAINTAINER = "device_maintainer"
-        private const val PROPERTY_AICP_VERSION = "ro.aicp.version"
+        private const val PROPERTY_AICP_VERSION = "ro.frosty.version"
         private const val PREF_AICP_VERSION = "aicp_version"
         private const val PROPERTY_BUILD_DATE = "ro.build.date"
         private const val PREF_BUILD_DATE = "build_date"

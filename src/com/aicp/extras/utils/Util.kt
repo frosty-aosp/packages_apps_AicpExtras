@@ -44,7 +44,7 @@ object Util {
 
     private val TAG = Util::class.java.simpleName
 
-    private const val PROPERTY_DEVICE = "ro.aicp.device"
+    private const val PROPERTY_DEVICE = "ro.frosty.device"
     private const val PROPERTY_DEVICE_EXT = "ro.product.device"
 
     @JvmStatic
