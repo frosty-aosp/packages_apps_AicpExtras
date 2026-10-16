@@ -22,29 +22,9 @@
     android:key="dashboard"
     android:title="@string/app_name">
 
-    <!-- AICP logo -->
     <com.aicp.gear.preference.LongClickablePreference
         android:key="aicp_logo"
         app:layout="@layout/dashboard_logo" />
-
-    <PreferenceCategory
-        android:title="@string/buttons_keys_category">
-
-        <PreferenceScreen
-            android:title="@string/navigation_title"
-            android:key="navigation"
-            android:summary="@string/navigation_summary"
-            android:icon="@drawable/ic_settings_navbar"
-            android:fragment="com.aicp.extras.fragments.Navigation" />
-
-        <PreferenceScreen
-            android:title="@string/hw_keys_title"
-            android:key="hw_keys"
-            android:summary="@string/hw_keys_summary"
-            android:icon="@drawable/ic_settings_hw_keys"
-            android:fragment="com.aicp.extras.fragments.HwKeys" />
-
-    </PreferenceCategory>
 
     <PreferenceCategory
         android:title="@string/user_interface_category">
@@ -55,13 +35,6 @@
             android:summary="@string/status_bar_summary"
             android:icon="@drawable/ic_settings_status_bar"
             android:fragment="com.aicp.extras.fragments.StatusBar" />
-
-        <PreferenceScreen
-            android:title="@string/notifications_title"
-            android:key="notifications"
-            android:summary="@string/notifications_summary"
-            android:icon="@drawable/ic_settings_notifications"
-            android:fragment="com.aicp.extras.fragments.Notifications" />
 
 	<PreferenceScreen
             android:title="@string/quick_settings_title"
@@ -85,13 +58,6 @@
             android:fragment="com.aicp.extras.fragments.Weather" />
 
         <PreferenceScreen
-            android:title="@string/theming_title"
-            android:key="theming"
-            android:summary="@string/theming_summary"
-            android:icon="@drawable/ic_settings_theming"
-            android:fragment="com.aicp.extras.fragments.Theming" />
-
-        <PreferenceScreen
             android:title="@string/other_ui_title"
             android:key="other_ui"
             android:summary="@string/other_ui_summary"
@@ -104,25 +70,11 @@
         android:title="@string/system_category">
 
         <PreferenceScreen
-            android:title="@string/system_animations_title"
-            android:key="system_animations"
-            android:summary="@string/system_animations_summary"
-            android:icon="@drawable/ic_settings_system_animations"
-            android:fragment="com.aicp.extras.fragments.SystemAnimations" />
-
-        <PreferenceScreen
             android:title="@string/system_behaviour_title"
             android:key="system_behaviour"
             android:summary="@string/system_behaviour_summary"
             android:icon="@drawable/ic_settings_system_behaviour"
             android:fragment="com.aicp.extras.fragments.SystemBehaviour" />
-
-        <PreferenceScreen
-            android:title="@string/system_extensions_title"
-            android:key="system_extensions"
-            android:summary="@string/system_extensions_summary"
-            android:icon="@drawable/ic_settings_system_extensions"
-            android:fragment="com.aicp.extras.fragments.SystemExtensions" />
 
     </PreferenceCategory>
 
